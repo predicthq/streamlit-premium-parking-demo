@@ -79,15 +79,15 @@ def show_map(lat, lon, radius_meters, events):
                             "coordinates": [lon, lat],
                             "radius": radius_meters,
                             "icon_data": {
-                                "url": "app/static/map-icon.png",
-                                "width": 160,
-                                "height": 160,
+                                "url": "app/static/premium-parking-map-icon.png",
+                                "width": 248,
+                                "height": 352,
                             },
                         }
                     ],
                     get_position="coordinates",
                     get_icon="icon_data",
-                    get_size=20,
+                    get_size=30,
                     pickable=False,
                 ),
                 # Point-type events layer

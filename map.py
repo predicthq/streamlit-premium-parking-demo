@@ -42,6 +42,10 @@ def map():
     ):
         return
 
+    st.markdown(
+        "<picture><source srcset='app/static/premium-parking-logo-white.png' media='(prefers-color-scheme: dark)'><img src='app/static/premium-parking-logo-red.png' width='160' /></picture>",
+        unsafe_allow_html=True,
+    )
     st.header(location["name"])
 
     # Display metrics
